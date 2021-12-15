@@ -1,0 +1,7 @@
+---
+- name: teste
+  hosts: all
+  tasks:
+    - name: Roda uname em todos
+      command: uname
+
