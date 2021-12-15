@@ -1,6 +1,6 @@
 ---
 - name: teste
-  hosts: all
+  hosts: SP
   tasks:
     - name: Roda uname em todos
       command: uname
